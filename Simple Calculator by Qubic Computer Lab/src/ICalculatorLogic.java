@@ -23,4 +23,10 @@ public interface ICalculatorLogic {
 	 * @param functionKey
 	 */
 	public void enterFunctionKey(int functionKey);
+	
+	/**
+	 * Should return the string of results
+	 * @return the literal string of the display
+	 */
+	public String getResult();
 }
